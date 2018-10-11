@@ -9,11 +9,11 @@ while True:
 
     img_grayscale=cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-    img_grayscale=cv2.resize(img_grayscale,(200,100))
+    img_grayscale=cv2.resize(img_grayscale,(96,48))
 
     img_grayscale=img_grayscale/255
 
-    chars=[' ','.','-','=','o','x','O','X']
+    chars=[' ',' ','.','-','=','x','o','#','@']
 
     #chars=[' ','.',',','-','*']
 
