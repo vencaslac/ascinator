@@ -13,7 +13,7 @@ while True:
 
     img_grayscale=img_grayscale/255
 
-    chars=[' ',' ',' ','.','-','=','o','x','O','X']
+    chars=[' ','.','-','=','o','x','O','X']
 
     #chars=[' ','.',',','-','*']
 
