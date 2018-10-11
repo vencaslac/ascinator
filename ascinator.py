@@ -4,7 +4,6 @@ import os
 
 cap=cv2.VideoCapture(0)
 
-
 while True:
     ret, img = cap.read()
 
@@ -21,8 +20,6 @@ while True:
     img_grayscale=img_grayscale*(len(chars)-1)
 
     ascii=[]
-
-
 
     for line in img_grayscale:
         lain=[]
